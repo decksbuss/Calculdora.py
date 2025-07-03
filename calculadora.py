@@ -35,7 +35,7 @@ def entrarvalor(event):
 def calcular():
     global tdsvalores
     resultado= eval(tdsvalores)
-    print(resultado)
+    valortxt.set(resultado)
 
 def limpar_tela():
     global tdsvalores
